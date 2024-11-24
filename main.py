@@ -133,7 +133,7 @@ for count in range(100):
     driver.find_element(By.XPATH, q8[int(q8_opt)]).click()
 
     # hand in btn
-    #driver.find_element(By.XPATH, value='//*[@id="mG61Hd"]/div[2]/div/div[3]/div/div[1]/div').click()
+    driver.find_element(By.XPATH, value='//*[@id="mG61Hd"]/div[2]/div/div[3]/div/div[1]/div').click()
 
 
 
